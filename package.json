@@ -10,6 +10,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Creamcookie",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creamcookie/gdocs-to-i18n.git"
+  },
+  "keywords": [
+    "Google",
+    "Docs",
+    "i18n"
+  ],
+  "bugs": {
+    "url": "https://github.com/creamcookie/gdocs-to-i18n/issues"
+  },
+  "homepage": "https://github.com/creamcookie/gdocs-to-i18n#readme"
 }
