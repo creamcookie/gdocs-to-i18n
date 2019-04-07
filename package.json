@@ -1,5 +1,5 @@
 {
-  "name": "ccs-gdocs-to-i18n",
+  "name": "ccs-gdocs-to-langpack",
   "version": "1.0.0",
   "description": "Google Docs to i18n File",
   "main": "docstoi18n.js",
