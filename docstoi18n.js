@@ -28,7 +28,7 @@ const getDocs = async (key, format, suffix) => {
                                 key = lang.substring(0, 2) + "_" + lang.substring(2).toUpperCase();
                         }
 			if (!output[key]) output[key] = {};
-			output[key][v["gsx$code"]["$t"]] = v["gsx$" + key]["$t"]; 
+			output[key][v["gsx$code"]["$t"]] = v["gsx$" + lang]["$t"]; 
 		});
 	});
 	

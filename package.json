@@ -1,6 +1,6 @@
 {
   "name": "ccs-gdocs-to-langpack",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Google Docs to i18n File",
   "main": "docstoi18n.js",
   "dependencies": {
