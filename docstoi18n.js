@@ -40,7 +40,7 @@ const getDocs = async (key, format, suffix) => {
 		}
 		else if (format == 'properties') {
 			response = Object.keys(output[language]).map(item => {
-				return item + " = " + output[language][item];
+				return item + " = " + output[language][item].replace(/\n/g, "\\n");
 			}).join("\n");
 		}
 		
