@@ -22,7 +22,11 @@ const getDocs = async (key, format, suffix) => {
 		let keys = Object.keys(v).filter(v => v.indexOf("gsx$") === 0).map(v => v.substring(4));
 		let langs = keys.filter(v => ["code", "state"].indexOf(v) === -1);
 		
-		langs.forEach(key => {
+		langs.forEach(lang => {
+                        let key = lang;
+                        if (key.length == 4) {
+                                key = lang.substring(0, 2) + "_" + lang.substring(2).toUpperCase();
+                        }
 			if (!output[key]) output[key] = {};
 			output[key][v["gsx$code"]["$t"]] = v["gsx$" + key]["$t"]; 
 		});

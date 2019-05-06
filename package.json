@@ -1,13 +1,17 @@
 {
   "name": "ccs-gdocs-to-langpack",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Google Docs to i18n File",
   "main": "docstoi18n.js",
   "dependencies": {
     "node-fetch": "^2.3.0"
   },
   "devDependencies": {},
+  "bin": {
+    "ccs-i18n": "bin/ccs-i18n"
+  },
   "scripts": {
+    "start": "docstoi18n.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Creamcookie",
